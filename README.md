@@ -1,4 +1,4 @@
-# Cypress Automation Framework by Rafael Mejia
+# Cypress Automation Framework
 
 ## Authors
 
