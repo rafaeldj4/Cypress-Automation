@@ -4,5 +4,4 @@
 
 contact info
 
-Rafael Mejia  
-[@LinkedIn](https://www.linkedin.com/in/rafael-mejia/)
+Rafael Mejia - [@LinkedIn](https://www.linkedin.com/in/rafael-mejia/)
