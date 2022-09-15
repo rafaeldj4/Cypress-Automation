@@ -8,9 +8,16 @@
 // https://on.cypress.io/custom-commands
 // ***********************************************
 //
+import SignupLoginPage from "../integration/pageObjets/SignupLoginPage"
+const signupLoginPage = new SignupLoginPage()
 //
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
+    Cypress.Commands.add("fillDateOfBirth", (day,month,year)=>{
+        signupLoginPage.dateOfBirth_Day().select(day)
+        signupLoginPage.dateOfBirth_Month().select(month)
+        signupLoginPage.dateOfBirth_Year().select(year)
+    })
 //
 //
 // -- This is a child command --

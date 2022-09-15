@@ -1,7 +1,13 @@
 export default class HomePage {
 
-    getUrl(){
-        return cy.visit("https://www.automationexercise.com/test_cases") 
+  //Nav Bar Links
+
+    homeNavLink(){
+        return  cy.get('ul.nav.navbar-nav li a').contains("Home")
+    }
+
+    signupLoginNavLink(){
+        return cy.get('ul.nav.navbar-nav li a').contains("Signup / Login")
     }
 
 }
