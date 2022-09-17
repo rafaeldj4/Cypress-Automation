@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
-import homeAutomationPage from "../../pages/homeAutomationPage"
-import signupAutomationPage from "../../pages/signupAutomationPage"
+import homeAutomationPage from "../../../pages/automationExcercisePages/homeAutomationPage"
+import signupAutomationPage from "../../../pages/automationExcercisePages/signupAutomationPage"
 
 describe("Test Suite - Register User", function(){
 
